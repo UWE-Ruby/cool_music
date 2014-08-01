@@ -13,10 +13,11 @@ gem 'jbuilder', '~> 2.0'
 
 gem 'will_paginate'
 
+gem 'thin'
+
 group :development do
   gem 'spring'
   gem 'grb'
-  gem 'thin'
 end
 
 group :test, :development do
