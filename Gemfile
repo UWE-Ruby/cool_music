@@ -11,10 +11,11 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 
+gem 'thin'
+
 group :development do
   gem 'spring'
   gem 'grb'
-  gem 'thin'
 end
 
 group :test, :development do
