@@ -16,7 +16,7 @@ group :development do
   gem 'grb'
 end
 
-group :test do
+group :test, :development do
   gem 'rspec-rails'
   gem 'capybara'
 end
