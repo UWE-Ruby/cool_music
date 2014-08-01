@@ -14,6 +14,7 @@ gem 'jbuilder', '~> 2.0'
 group :development do
   gem 'spring'
   gem 'grb'
+  gem 'thin'
 end
 
 group :test, :development do
