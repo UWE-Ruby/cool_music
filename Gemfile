@@ -11,7 +11,10 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 
-gem 'spring',        group: :development
+group :development do
+  gem 'spring'
+  gem 'grb'
+end
 
 group :test do
   gem 'rspec-rails'
